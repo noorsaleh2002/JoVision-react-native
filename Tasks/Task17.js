@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, Button, StyleSheet } from "react-native";
 
-const Task16 = () => {
+const Task17= () => {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
@@ -9,7 +9,7 @@ const Task16 = () => {
       {isVisible && <Text style={styles.nameText}>Noor</Text>}
 
       <Button 
-        title="Show"
+        title={isVisible ? "Hide" : "Show"}
         onPress={() => setIsVisible(!isVisible)}
          color="#ff5733"
       />
@@ -31,4 +31,4 @@ const styles = StyleSheet.create({
  
 });
 
-export default Task16;
+export default Task17;
