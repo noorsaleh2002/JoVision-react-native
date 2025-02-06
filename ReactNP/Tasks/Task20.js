@@ -25,10 +25,10 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#f0f0f0", // Optional, to give a background color
+   
   },
   buttonContainer: {
-    marginBottom: 20, // Adds space between the button and the content
+    marginBottom: 20, 
   },
 });
 
