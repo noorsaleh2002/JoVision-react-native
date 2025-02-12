@@ -25,6 +25,7 @@ const Task29 = () => {
       setIndexInput(""); 
     } else {
         Alert.alert("Invalid index. Please enter a valid index.");
+        setIndexInput(""); 
     }
   };
 
