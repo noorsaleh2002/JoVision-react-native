@@ -20,7 +20,7 @@ const Task35 = () => {
 
           if ((currentTime - timestamp) / 1000 < 60) {
             setName(jsondata.name);
-            setAge(jsondata.age.toString()); // Convert age back to string for input field
+            setAge(jsondata.age.toString()); 
             setCountry(jsondata.country);
           } else {
             setMessage('Stored data is too old');
